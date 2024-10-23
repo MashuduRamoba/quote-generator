@@ -1,0 +1,53 @@
+body{
+    background: #06BCC1;
+
+}
+
+.container {
+
+    
+    width: 95%;
+    height: 100vh;
+    display: flex;
+
+}
+
+.quotes{
+    
+    width: 900px;
+    height: 450px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    color: gray;
+    background-color: #f4edea;
+    border: 10px solid #f4d1ae;
+}
+
+.quotes p{
+
+    size: 1.5rem;
+
+}
+
+.quotes h3{
+
+    size: 1.5rem;
+}
+
+@media(max-width:480px){
+    .quotes p{
+
+        size: 1rem;
+    
+    }
+    
+    .quotes h3{
+    
+        size: 1rem;
+    }
+
+}
